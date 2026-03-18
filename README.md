@@ -42,3 +42,15 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 ## Skills I have developed
+
+**Programming Concepts**
+- Writing clean, well-commented Python code
+- Using functions to organise and reuse code 
+- Handling use input safely with validation
+
+**Tools and Technologies**
+- Python 3 (Thonny IDE)
+- Jupyter Notebooks
+- Git version control
+- GitHub for code sharing and portfolio management
+- Markdown for documentation 
