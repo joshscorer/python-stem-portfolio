@@ -50,7 +50,7 @@ This portfolio documents my progress through a Python programming course designe
 
 **Tools and Technologies**
 - Python 3 (Thonny IDE)
-- Jupyter Notebooks
+- Jupyter Notebook
 - Git version control
 - GitHub for code sharing and portfolio management
-- Markdown for documentation 
+- Markdown for documentation
