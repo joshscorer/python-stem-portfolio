@@ -58,5 +58,5 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 ## Contact
-- **Github:** [your-username]
-- **Email** [your-school-email]
+- **Github:** [joshscorer]
+- **Email** [joshua.scorer@outlook.com]
