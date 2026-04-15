@@ -54,3 +54,9 @@ This portfolio documents my progress through a Python programming course designe
 - Git version control
 - GitHub for code sharing and portfolio management
 - Markdown for documentation
+
+---
+
+## Contact
+- **Github:** [your-username]
+- **Email** [your-school-email]
