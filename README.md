@@ -64,4 +64,18 @@ This portfolio documents my progress through a Python programming course designe
 ---
 ## Projects
 - [Unit Converter](https://github.com/joshscorer/Python-Award-Option/blob/Python/week5/19thNov.ipynb)
+``` Python
+def celsiuis_to_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+temp1 = celsiuis_to_fahrenheit(0)
+temp2 = celsiuis_to_fahrenheit(25)
+temp3 = celsiuis_to_fahrenheit(100)
+
+print(f"0 Celsius = {temp1} Fahrenheit")
+print(f"25 Celsius = {temp2} Fahrenheit")
+print(f"100 Celsius = {temp3} Fahrenheit")
+```
+
 
