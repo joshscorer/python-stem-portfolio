@@ -32,7 +32,7 @@ This portfolio documents my progress through a Python programming course designe
 
 | # | Project | Key skills | Status |
 |---|---|---|---|
-| 1 | Unit converter | Variables, functions, input/output | ✅ Complete |
+| 1 | [Unit converter] (#Unit converter) | Variables, functions, input/output | ✅ Complete |
 | 2 | Number Guessing Game | Loops, conditions, random | ✅ Complete |
 | 3 | To-do List | Lists, functions, data structures | ✅ Complete |
 | 4 | Student Grade Calculator | Dictionaries, validation, error handling | ✅ Complete |
@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 
 ---
 ## Projects
-- Unit Converter
+- #Unit converter
 ``` Python
 def celsiuis_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
