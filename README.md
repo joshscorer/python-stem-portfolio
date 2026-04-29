@@ -80,15 +80,15 @@ print(f"100 Celsius = {temp3} Fahrenheit")
 - ## Number Guessing Game
 ``` Python
 def guessNumber():
-    '''Randomly chooses a number between 1 and 10'''
+    '''Randomly chooses a number between 1 and 100'''
     import random
-    secret_number = random.randint(1, 10)
+    secret_number = random.randint(1, 100)
     print(secret_number)
     while True:
         guess = int(input("Enter your guess: "))
         
         if guess < 1 or guess > 10: 
-            print("Please enter a number between 1 and 10.")
+            print("Please enter a number between 1 and 100.")
         elif guess < secret_number:
             print("Too low. Try again.")
         elif guess > secret_number:
