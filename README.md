@@ -95,7 +95,7 @@ def guessNumber():
             print("Too high. Try again.")
         else:
             print("Congratulations! You guessed it!")
-          break 
+        break 
 guessNumber()
 ```
 - ## To-do List 
