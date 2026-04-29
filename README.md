@@ -33,8 +33,8 @@ This portfolio documents my progress through a Python programming course designe
 | # | Project | Key skills | Status |
 |---|---|---|---|
 | 1 | [Unit converter](#Unitconverter) | Variables, functions, input/output | ✅ Complete |
-| 2 | Number Guessing Game | Loops, conditions, random | ✅ Complete |
-| 3 | To-do List | Lists, functions, data structures | ✅ Complete |
+| 2 | [Number Guessing Game](#NumberGuessingGame) | Loops, conditions, random | ✅ Complete |
+| 3 | [To-do List](#To-dolist) | Lists, functions, data structures | ✅ Complete |
 | 4 | Student Grade Calculator | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | OOP Bank account | Classes, OOP principles | ✅ Complete |
 | 6 | Data Analysis Notebook | Jupyter Notebooks, data exploration | ✅ Complete |
@@ -77,7 +77,7 @@ print(f"0 Celsius = {temp1} Fahrenheit")
 print(f"25 Celsius = {temp2} Fahrenheit")
 print(f"100 Celsius = {temp3} Fahrenheit")
 ```
-- Number Guessing Game
+- ## Number Guessing Game
 ``` Python
 def guessNumber():
     '''Randomly chooses a number between 1 and 10'''
@@ -98,7 +98,7 @@ def guessNumber():
           break 
 guessNumber()
 ```
-- To-do List Manager
+- ## To-do List 
 ``` Python
 
 def show_tasks(tasks):
