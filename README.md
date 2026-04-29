@@ -87,7 +87,7 @@ def guessNumber():
     while True:
         guess = int(input("Enter your guess: "))
         
-        if guess < 1 or guess > 10: 
+        if guess < 1 or guess > 100: 
             print("Please enter a number between 1 and 100.")
         elif guess < secret_number:
             print("Too low. Try again.")
