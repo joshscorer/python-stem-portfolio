@@ -274,6 +274,138 @@ def main():
 
 main()
 ```
+- ## Contact Book with File Saving
+``` Python
+import os
+
+FILENAME = "contacts.txt"
+
+def load_contacts():
+    """Load contacts from file. Return empty list if file doesn't exist."""
+    contacts = []
+    if os.path.exists(FILENAME):
+        with open(FILENAME, "r") as f:
+            for line in f:
+                parts = line.strip().split(",")
+                if len(parts) == 2:
+                    contacts.append({"name": parts[0], "phone": parts[1]})
+    return contacts
+
+def save_contacts(contacts):
+    """Save all contacts to file."""
+    with open(FILENAME, "w") as f:
+        for c in contacts:
+            f.write(f"{c['name']},{c['phone']}\n")
+    print("Contacts saved.")
+
+def add_contact(contacts):
+    name = input("Name: ")
+    phone = input("Phone: ")
+    contacts.append({"name": name, "phone": phone})
+    save_contacts(contacts)
+
+def view_contacts(contacts):
+    if not contacts:
+        print("No contacts saved.")
+        return
+    print("\n=== Contacts ===")
+    for i, c in enumerate(contacts, 1):
+        print(f"{i}. {c['name']} — {c['phone']}")
+
+def main():
+    contacts = load_contacts()
+    print(f"Loaded {len(contacts)} contact(s).")
+    
+    while True:
+        print("\n1. View contacts  2. Add contact  3. Exit")
+        choice = input("Choose: ")
+        if choice == "1":
+            view_contacts(contacts)
+        elif choice == "2":
+            add_contact(contacts)
+        elif choice == "3":
+            break
+
+main()
+```
+- ## Student Records Database
+``` Python
+import sqlite3
+
+def create_database():
+    """Create the database and table if they don't exist."""
+    conn = sqlite3.connect("students.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS students (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            score REAL NOT NULL
+        )
+    """)
+    conn.commit()
+    conn.close()
+
+def add_student(name, score):
+    conn = sqlite3.connect("students.db")
+    cursor = conn.cursor()
+    cursor.execute("INSERT INTO students (name, score) VALUES (?, ?)", (name, score))
+    conn.commit()
+    conn.close()
+    print(f"Added {name} with score {score}.")
+
+def view_all_students():
+    conn = sqlite3.connect("students.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, name, score FROM students ORDER BY score DESC")
+    rows = cursor.fetchall()
+    conn.close()
+    
+    if not rows:
+        print("No records found.")
+        return
+    
+    print("\n=== All Students ===")
+    print(f"{'ID':<5} {'Name':<20} {'Score':<10}")
+    print("-" * 35)
+    for row in rows:
+        print(f"{row[0]:<5} {row[1]:<20} {row[2]:<10}")
+
+def search_student(name):
+    conn = sqlite3.connect("students.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM students WHERE name LIKE ?", (f"%{name}%",))
+    results = cursor.fetchall()
+    conn.close()
+    
+    if not results:
+        print(f"No student found with name '{name}'.")
+    else:
+        for r in results:
+            print(f"ID: {r[0]}, Name: {r[1]}, Score: {r[2]}")
+
+def main():
+    create_database()
+    
+    while True:
+        print("\n=== Student Records ===")
+        print("1. View all  2. Add student  3. Search  4. Exit")
+        choice = input("Choose: ")
+        
+        if choice == "1":
+            view_all_students()
+        elif choice == "2":
+            name = input("Name: ")
+            score = float(input("Score: "))
+            add_student(name, score)
+        elif choice == "3":
+            name = input("Search name: ")
+            search_student(name)
+        elif choice == "4":
+            break
+
+main()
+```
 
 
 
