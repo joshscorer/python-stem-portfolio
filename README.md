@@ -76,7 +76,10 @@ temp3 = celsiuis_to_fahrenheit(100)
 print(f"0 Celsius = {temp1} Fahrenheit")
 print(f"25 Celsius = {temp2} Fahrenheit")
 print(f"100 Celsius = {temp3} Fahrenheit")
-```
+```<img width="202" height="41" alt="image" src="https://github.com/user-attachments/assets/a29121f2-ff54-404a-a93d-0f48c8f92e5f" />
+
+
+
 - ## Number Guessing Game |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def guessNumber():
