@@ -101,6 +101,9 @@ def guessNumber():
         break 
 guessNumber()
 ```
+
+<img width="215" height="29" alt="image" src="https://github.com/user-attachments/assets/59c0f91d-3333-49a5-b287-715846bb7db1" />
+
 - ## To-do List |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 
