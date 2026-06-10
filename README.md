@@ -208,6 +208,9 @@ def calculate_results():
 
 calculate_results()
 ```
+
+<img width="227" height="123" alt="image" src="https://github.com/user-attachments/assets/04ce5267-ab44-42df-a64b-826a193d9352" />
+
 - ## OOP Bank Account |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 class BankAccount:
