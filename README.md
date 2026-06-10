@@ -34,10 +34,10 @@ This portfolio documents my progress through a Python programming course designe
 |---|---|---|---|
 | 1 | [Unit converter](#Unit-converter-portfolio-projects) | Variables, functions, input/output | ✅ Complete |
 | 2 | [Number Guessing Game](#Number-Guessing-Game-portfolio-projects) | Loops, conditions, random | ✅ Complete |
-| 3 | [To do List](#To-do-List) | Lists, functions, data structures | ✅ Complete |
-| 4 | [Student Grade Calculator](#Student-Grade-Calculator) | Dictionaries, validation, error handling | ✅ Complete |
-| 5 | [OOP Bank account](#OOP-Bank-account) | Classes, OOP principles | ✅ Complete |
-| 6 | [Contact book with file saving](#Contact-book-with-file-saving) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 3 | [To do List](#To-do-List-portfolio-projects) | Lists, functions, data structures | ✅ Complete |
+| 4 | [Student Grade Calculator](#Student-Grade-Calculator-portfolio-projects) | Dictionaries, validation, error handling | ✅ Complete |
+| 5 | [OOP Bank account](#OOP-Bank-account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
+| 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 
@@ -97,7 +97,7 @@ def guessNumber():
         break 
 guessNumber()
 ```
-- ## To-do List | [Portfolio Projects](#Portfolio-Projects)
+- ## To-do List |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 
 def show_tasks(tasks):
@@ -151,7 +151,7 @@ def main():
 
 main()
 ```
-- ## Student Grade Calculator | [Portfolio Projects](#Portfolio-Projects)
+- ## Student Grade Calculator |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
@@ -198,7 +198,7 @@ def calculate_results():
 
 calculate_results()
 ```
-- ## OOP Bank Account | [Portfolio Projects](#Portfolio-Projects)
+- ## OOP Bank Account |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 class BankAccount:
     """A simple bank account class."""
@@ -274,7 +274,7 @@ def main():
 
 main()
 ```
-- ## Contact Book with File Saving | [Portfolio Projects](#Portfolio-Projects)
+- ## Contact Book with File Saving |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import os
 
@@ -328,7 +328,7 @@ def main():
 
 main()
 ```
-- ## Student Records Database | [Portfolio Projects](#Portfolio-Projects)
+- ## Student Records Database |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import sqlite3
 
