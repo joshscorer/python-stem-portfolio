@@ -33,7 +33,7 @@ This portfolio documents my progress through a Python programming course designe
 | # | Project | Key skills | Status |
 |---|---|---|---|
 | 1 | [Unit converter](#Unit-converter-portfolio-projects) | Variables, functions, input/output | ✅ Complete |
-| 2 | [Number Guessing Game](#Number-Guessing-Game) | Loops, conditions, random | ✅ Complete |
+| 2 | [Number Guessing Game](#Number-Guessing-Game-portfolio-projects) | Loops, conditions, random | ✅ Complete |
 | 3 | [To do List](#To-do-List) | Lists, functions, data structures | ✅ Complete |
 | 4 | [Student Grade Calculator](#Student-Grade-Calculator) | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | [OOP Bank account](#OOP-Bank-account) | Classes, OOP principles | ✅ Complete |
@@ -77,7 +77,7 @@ print(f"0 Celsius = {temp1} Fahrenheit")
 print(f"25 Celsius = {temp2} Fahrenheit")
 print(f"100 Celsius = {temp3} Fahrenheit")
 ```
-- ## Number Guessing Game | [Portfolio Projects](#Portfolio-Projects)
+- ## Number Guessing Game |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def guessNumber():
     '''Randomly chooses a number between 1 and 100'''
