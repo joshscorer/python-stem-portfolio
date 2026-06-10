@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 
 ---
 ## Projects
-- ## Unit converter | Menu [Portfolio Projects](#Portfolio-Projects)
+- ## Unit converter | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def celsiuis_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
