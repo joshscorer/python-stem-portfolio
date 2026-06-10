@@ -158,6 +158,9 @@ def main():
 
 main()
 ```
+
+<img width="236" height="394" alt="image" src="https://github.com/user-attachments/assets/da3e0158-2322-4268-849c-d25a1573febd" />
+
 - ## Student Grade Calculator |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def get_grade(average):
