@@ -63,7 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 
 ---
 ## Projects
-- ## Unit converter
+- ## Unit converter  [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def celsiuis_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
@@ -97,7 +97,7 @@ def guessNumber():
         break 
 guessNumber()
 ```
-- ## To-do List 
+- ## To-do List [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 
 def show_tasks(tasks):
@@ -151,7 +151,7 @@ def main():
 
 main()
 ```
-- ## Student Grade Calculator
+- ## Student Grade Calculator [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
@@ -198,7 +198,7 @@ def calculate_results():
 
 calculate_results()
 ```
-- ## OOP Bank Account
+- ## OOP Bank Account [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 class BankAccount:
     """A simple bank account class."""
@@ -274,7 +274,7 @@ def main():
 
 main()
 ```
-- ## Contact Book with File Saving
+- ## Contact Book with File Saving [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import os
 
@@ -328,7 +328,7 @@ def main():
 
 main()
 ```
-- ## Student Records Database
+- ## Student Records Database [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import sqlite3
 
