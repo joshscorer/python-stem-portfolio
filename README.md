@@ -344,6 +344,10 @@ def main():
 
 main()
 ```
+
+<img width="272" height="134" alt="image" src="https://github.com/user-attachments/assets/6641f603-8d37-4ba6-b3f9-46f62800b23c" />
+
+
 - ## Student Records Database |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import sqlite3
