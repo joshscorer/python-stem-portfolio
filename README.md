@@ -287,6 +287,9 @@ def main():
 
 main()
 ```
+
+<img width="314" height="358" alt="image" src="https://github.com/user-attachments/assets/2329ba1a-7204-44dc-aa09-332cc59e8f7a" />
+
 - ## Contact Book with File Saving |[Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import os
