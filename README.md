@@ -77,7 +77,7 @@ print(f"0 Celsius = {temp1} Fahrenheit")
 print(f"25 Celsius = {temp2} Fahrenheit")
 print(f"100 Celsius = {temp3} Fahrenheit")
 ```
-- ## Number Guessing Game
+- ## Number Guessing Game  [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def guessNumber():
     '''Randomly chooses a number between 1 and 100'''
