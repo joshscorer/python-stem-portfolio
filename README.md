@@ -77,7 +77,7 @@ print(f"0 Celsius = {temp1} Fahrenheit")
 print(f"25 Celsius = {temp2} Fahrenheit")
 print(f"100 Celsius = {temp3} Fahrenheit")
 ```
-- ## Number Guessing Game  [Portfolio Projects](#Portfolio-Projects)
+- ## Number Guessing Game | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def guessNumber():
     '''Randomly chooses a number between 1 and 100'''
@@ -97,7 +97,7 @@ def guessNumber():
         break 
 guessNumber()
 ```
-- ## To-do List [Portfolio Projects](#Portfolio-Projects)
+- ## To-do List | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 
 def show_tasks(tasks):
@@ -151,7 +151,7 @@ def main():
 
 main()
 ```
-- ## Student Grade Calculator [Portfolio Projects](#Portfolio-Projects)
+- ## Student Grade Calculator | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
@@ -198,7 +198,7 @@ def calculate_results():
 
 calculate_results()
 ```
-- ## OOP Bank Account [Portfolio Projects](#Portfolio-Projects)
+- ## OOP Bank Account | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 class BankAccount:
     """A simple bank account class."""
@@ -274,7 +274,7 @@ def main():
 
 main()
 ```
-- ## Contact Book with File Saving [Portfolio Projects](#Portfolio-Projects)
+- ## Contact Book with File Saving | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import os
 
@@ -328,7 +328,7 @@ def main():
 
 main()
 ```
-- ## Student Records Database [Portfolio Projects](#Portfolio-Projects)
+- ## Student Records Database | [Portfolio Projects](#Portfolio-Projects)
 ``` Python
 import sqlite3
 
