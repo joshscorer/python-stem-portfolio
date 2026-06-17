@@ -38,6 +38,7 @@ This portfolio documents my progress through a Python programming course designe
 | 4 | [Student Grade Calculator](#Student-Grade-Calculator-portfolio-projects) | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | [OOP Bank account](#OOP-Bank-account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
 | 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 7 | [Movie list with ratings](#Movie-list-with-ratings-portfolio-projects) | Using database, removing, adding, showing | ✅ Complete |
 
 ---
 
