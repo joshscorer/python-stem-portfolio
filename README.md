@@ -430,5 +430,97 @@ main()
 
 <img width="317" height="268" alt="image" src="https://github.com/user-attachments/assets/0889f7d6-eea8-4653-af99-0b355c1c3970" />
 
+- ## Movie list with ratings | [Portfolio Projects](#Portfolio-Projects)
 
+``` Python
+import sqlite3
+def dbConnection():
+     #Create connection to database
+    conn = sqlite3.connect('movie_list.db')
+    cursor = conn.cursor()
+    
+    #Create table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS movielist (
+              item_id INTEGER PRIMARY KEY AUTOINCREMENT,
+              item_name TEXT NOT NULL,
+              year INTEGER NOT NULL,
+              director TEXT, 
+              genre TEXT NOT NULL,
+              rating INTEGER
+        )
+    ''')
+    #Save changes and close
+    return conn, cursor
+    conn.commit()
+    conn.close()
+    
+   
+def insertData():
+    '''add data to the database table'''
+    query = '''INSERT INTO movielist (item_name, year, director, genre, rating)
+VALUES ("Waves", 2019, "Trey Edward Shutts", "drama", 10);'''
+    conn, cursor = dbConnection()
+    cursor.execute(query,)
+    conn.commit()
+    conn.close()
+
+def insertDataWithParameters():
+    '''add data to the database table'''
+    query = '''INSERT INTO movielist (item_name, year, director, genre, rating)
+VALUES (?, ?, ?, ?, ?);'''
+    item_name = input('Enter the item name:')
+    year = int(input('Enter the year:'))
+    director = input('Enter the directors name:')
+    genre = input('Enter the genre:')
+    rating = int(input('Enter your rating:'))
+    conn, cursor = dbConnection()
+    cursor.execute(query,(item_name,year,director,genre,rating))
+    conn.commit()
+    conn.close()
+    print("Record was succesfully saved")
+    
+def readDatabase():
+    '''read data from a table'''
+    query = """SELECT * from movielist"""
+    conn, cursor = dbConnection()
+    cursor.execute(query,)
+    results = cursor.fetchall()
+    print(f'item name			Year			Director			Genre			Rating')
+    for i in range(len(results)):
+        print(f'{results[i][1]}		{results[i][2]}		{results[i][3]}		{results[i][4]}		{results[i][5]}')
+    conn.close()
+    
+#Main
+def menu():
+    title = 'Movie List Ratings'
+    line = '-'
+    menu = '''1. Add item (s)
+2. Show items
+3. Remove item
+4. Update item
+5. Quit
+'''
+    print(f"{title}\n{line*len(title)}")
+    print(menu)
+    
+def delete():
+    userChange = input('Which number would you like to delete?:')
+    query = '''DELETE FROM movelist WHERE item_name= userChange'''
+     
+def main():
+    '''Main user interface'''
+    while True:
+        menu()
+        userChoice = int(input('Choose an option:'))
+        if userChoice == 5:
+            print('--------------End of program------------')
+            break
+        elif userChoice == 1:
+            insertDataWithParameters()
+        
+        elif userChoice == 2:
+            readDatabase()
+            break
+```
 
