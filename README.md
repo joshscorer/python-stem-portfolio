@@ -524,3 +524,4 @@ def main():
             break
 ```
 
+<img width="806" height="385" alt="image" src="https://github.com/user-attachments/assets/32a9397c-7079-469b-b04f-1b2c50b326a6" />
